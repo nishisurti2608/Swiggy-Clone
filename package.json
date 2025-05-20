@@ -1,0 +1,26 @@
+{
+  "name": "swiggy_clone",
+  "version": "1.0.0",
+  "description": "Swiggy famous food delivering website of India",
+ 
+  "scripts": {
+    "test": "jest",
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishisurti2608/Swiggy-Clone.git"
+  },
+  "author": "Nishi Surti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishisurti2608/Swiggy-Clone/issues"
+  },
+  "homepage": "https://github.com/nishisurti2608/Swiggy-Clone#readme",
+  "dependencies": {
+    "parcel": "^2.15.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
