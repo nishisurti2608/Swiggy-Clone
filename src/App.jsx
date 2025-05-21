@@ -1,8 +1,10 @@
-
+import Header from "./Components/Header"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="items-center">
+        <Header/>
+     </div>
   )
 }
 
