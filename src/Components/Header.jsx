@@ -21,9 +21,9 @@ const Header = () => {
   
     <div className="px-12  h-20 flex  items-center justify-between bg-white shadow-lg  ">
       
-        <header className="flex justify-evenly items-center">
+        <header className="flex justify-evenly items-center px-8">
             {/* logo and city selector */}
-        <div className="cursor-pointer transition px-8 delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-125">   <Logo/></div>
+        <div className="cursor-pointer transition  delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-125">   <Logo/></div>
         <div className="pr-12 cursor-pointer flex group px-10 "> <span className="border-b-2 border-black group-hover:text-orange-600 group-hover:border-orange-600 text-sm font-semibold">Other</span><p className="text-gray-600 px-2 group-hover:text-gray-400 text-sm">Ahmedabad, Gujarat, India</p><MdKeyboardArrowDown color="#FF5200" fontSize="1.3em"/></div>
        </header>
             {/* Navigation with react-icons */}
