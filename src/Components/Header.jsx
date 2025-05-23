@@ -28,7 +28,7 @@ const Header = () => {
        </header>
             {/* Navigation with react-icons */}
         <nav>
-            <ul className="flex justify-evenly gap-8">
+            <ul className="flex justify-evenly gap-12">
                <li className="font-medium text-black flex items-center  gap-2  hover:text-orange-600 hover:cursor-pointer"> <PiSuitcaseSimpleBold fontSize="1.3em"/>Swiggy Corporate</li>
                 <li className="font-medium text-black flex items-center gap-2  hover:text-orange-600 hover:cursor-pointer"><IoSearch fontSize="1.3em" />Search</li>
                 <li className="font-medium text-black flex items-center gap-2  hover:text-orange-600 hover:cursor-pointer"><RiDiscountPercentLine  fontSize="1.3em"/>Offers <sup className="font-bold text-orange-600">NEW</sup></li>
