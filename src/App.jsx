@@ -17,7 +17,9 @@ const App = () => {
 
 
   const fetchData = async () => {
-    const api_data = await fetch(SWIGGY_API_URL).then((res)=> res.json().then((data)=> setCategory(data?.data?.cards[0].card?.card?.gridElements?.infoWithStyle?.info)))
+    const response = await fetch(SWIGGY_API_URL)
+    const data = await response.json()
+    setCategory(data?.data?.cards[0].card?.card?.gridElements?.infoWithStyle?.info)
   }
 
   return (
