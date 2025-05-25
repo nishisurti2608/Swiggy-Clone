@@ -23,7 +23,7 @@ const CategoryCarousel = (props) => {
   function moveCarouselToLeft(){
     
     setSlidePosition(prev => Math.max(0, prev - moveCategoryBy));
-    console.log(slidePosition)
+    
 
   }
 
